@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs at 0am UTC every day
     - cron: "0 0 * * *"
-    workflow_dispatch: # Add this line to enable manual triggers
+  workflow_dispatch: # Add this line to enable manual triggers
     
 jobs:
   update-readme:
