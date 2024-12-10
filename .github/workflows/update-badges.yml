@@ -14,4 +14,4 @@ jobs:
       contents: write
     steps:
       - name: Badges - Readme
-        uses: chingyukang/chingyukang@main
+        uses: pemtajo/badge-readme@2.4.0
